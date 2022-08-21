@@ -1,0 +1,30 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+svg.grasshopper {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: auto;
+  height: 100%;
+}
+
+body.app {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
